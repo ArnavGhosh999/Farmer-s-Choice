@@ -1,0 +1,170 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden; /* Hide scrollbar */
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #008000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+  float: left;
+}
+
+.nav-links {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* Quote Section */
+.quote-section {
+  background-image: url('bg-1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.quote-text {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.quote-text p {
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+  font-size: 28px;
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+  font-size: 1cm;
+}
+
+/* About Section */
+.about-section {
+  background-image: url('bg-2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 210px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+/* Recommendation Section */
+.recommendation-section {
+  background-image: url('bg-3.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Enable horizontal scrollbar */
+}
+
+.recommendation-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recommendation-form input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background-color: transparent;
+  transition: border-bottom-color 0.3s ease;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) center;
+  background-size: 30px;
+  padding-right: 50px;
+}
+
+.recommendation-form input:focus {
+  outline: none;
+  border-bottom-color: #006400;
+}
+
+/* Change text color to black for specific input fields */
+.recommendation-form .city,
+.recommendation-form .ph-level,
+.recommendation-form .other-levels {
+  color: #000000;
+}
+
+.recommendation-form button {
+  padding: 10px 20px;
+  background-color: #008000;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.recommendation-form button:hover {
+  background-color: #f2f9f2;
+}
+
+/* Heading Recommendation */
+.recommendation-heading {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Disable Autofill */
+.recommendation-form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+}
