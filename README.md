@@ -19,7 +19,10 @@ Snippets:
 
 
 ![image](https://github.com/ArnavGhosh999/Farmer-s-Choice/assets/133378610/b87af731-dc9c-418e-98eb-955914c1bf59)
+![WhatsApp Image 2024-02-25 at 21 40 27_c94932a3](https://github.com/ArnavGhosh999/Farmer-s-Choice/assets/133378610/e9c692ea-5fed-4170-b98c-dbf108788667)
 ![image](https://github.com/ArnavGhosh999/Farmer-s-Choice/assets/133378610/6526c618-bd72-4512-b6a9-d05bc1360cff)
+![WhatsApp Image 2024-02-25 at 21 40 27_44045af7](https://github.com/ArnavGhosh999/Farmer-s-Choice/assets/133378610/4a097240-f1a4-441c-b38b-2f7363c79396)
+
 ![image](https://github.com/ArnavGhosh999/Farmer-s-Choice/assets/133378610/280bf578-021b-4d6c-9545-ca17147371a1)
 
 
